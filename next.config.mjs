@@ -1,4 +1,6 @@
-// next.config.mjs
-export const nextConfig = {
-    output: "export",
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output:'export',
+  };
+  /* module.exports = nextConfig*/
+  export default nextConfig;
